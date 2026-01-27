@@ -2,10 +2,10 @@
 ### January 27th, 2026
 ### Julia Berglind & Peyton Chandler
 
-#### Project Idea
+#### Project Idea <br>
 The USGS has been deploying magnetic variometers at many seismic stations around the United States. The goal of this project would be to use seismic and magnetic data from the variometers and geomagnetic observatories to collocate and help scientists at the Albuquerque Seismological Lab (ASL) develop metrics for quality-control.
 
-#### Timeline
+#### Timeline <br>
 Data is readily available, but the USGS has offered the opportunity to deploy a variometer at the Boulder (BOU) geomagnetic
  observatory. This field work would not impact our data analysis, so we are flexible to the time of this installation. Tentatively, 
  we would like to follow the following schedule:
@@ -28,10 +28,9 @@ Data is readily available, but the USGS has offered the opportunity to deploy a 
 - Week of May 4th: Final report and presentation preperation.
 - Week of May 11th: Final touches!
 
-#### Field Equipment
+#### Field Equipment <br>
 Our group will not need any field equipment from Mines. All installation equipment will be provided by the USGS.
 
-#### Advisors
-Faculty Advisor: Rich Krahenbuhl
-
+#### Advisors <br>
+Faculty Advisor: Rich Krahenbuhl <br>
 USGS Advisors: Brian Shiro, Josh Rigler, & Adam Ringler
