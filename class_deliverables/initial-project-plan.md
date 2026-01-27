@@ -3,9 +3,7 @@
 ### Julia Berglind & Peyton Chandler
 
 #### Project Idea
-The USGS has been deploying magnetic variometers at many seismic station around the United States.
-The goal of this project would be to use seismic and magnetic data from the variometers and geomgnetic observatories
-to colocate and help scientists at the Albuquerque Seismological Lab (ASL) develop metrics for quality-control.
+The USGS has been deploying magnetic variometers at many seismic stations around the United States. The goal of this project would be to use seismic and magnetic data from the variometers and geomagnetic observatories to collocate and help scientists at the Albuquerque Seismological Lab (ASL) develop metrics for quality-control.
 
 #### Timeline
 Data is readily available, but the USGS has offered the opportunity to deploy a variometer at the Boulder (BOU) geomagnetic
