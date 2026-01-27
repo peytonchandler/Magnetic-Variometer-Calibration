@@ -35,4 +35,5 @@ Our group will not need any field equipment from Mines. All installation equipme
 
 #### Advisors
 Faculty Advisor: Rich Krahenbuhl
+
 USGS Advisors: Brian Shiro, Josh Rigler, & Adam Ringler
