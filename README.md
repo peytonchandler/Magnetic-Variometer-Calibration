@@ -18,7 +18,7 @@ Colorado School of Mines
 - **Peyton Chandler**  
   Peyton has worked on a variety of geophysical and machine learning projects, including seismic interpretation for structural analysis and developing tsunami classification algorithms.
 
-Both students have extensive coursework and practical experience in magnetic methods under Dr. Yaoguo Li.
+- Both students have extensive coursework and practical experience in magnetic methods under Dr. Yaoguo Li.
 ---
 
 ## Research Question
