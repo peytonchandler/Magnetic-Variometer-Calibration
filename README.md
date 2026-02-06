@@ -50,7 +50,6 @@ To expand the usefulness of variometer networks, we must quantify how well they 
 - Data collection from magnetic variometers and observatories  
 - Preprocessing and time-alignment  
 - Statistical comparison (RMSE, cross-correlation, drift quantification, etc.)  
-- Frequency-domain and spectral analysis  
 - Evaluation across geomagnetic disturbance levels  
 - Recommendations for calibration workflows  
 ---
