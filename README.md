@@ -22,7 +22,7 @@ Colorado School of Mines
 ---
 
 ## Research Question
-**What quantitative metrics can be developed to better calibrate magnetic variometers so that their performance approaches the accuracy of magnetic observatories?**
+**How can we develop metrics to increase magnetic variometer reliability at stations that are not located near geomagnetic observatories?**
 ---
 
 ## Motivation
