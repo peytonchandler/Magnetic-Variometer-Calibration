@@ -1,57 +1,62 @@
-# Spring 2026 Capstone Design Project  
-**Calibrating Magnetic Variometers Using Quantitative Error Metrics**
+# Calibrating Magnetic Variometers Using Quantitative Error Metrics
+**Spring 2026 Capstone Design Project — Colorado School of Mines**
+Julia Berglind & Peyton Chandler | Department of Geophysics | Advisors: Rich Krahenbuhl (CSM), Brian Shiro (USGS), Adam Ringler (USGS), Josh Rigler (USGS), & John Spritzer (USGS)
+
+---
 
 ## Overview
-This project investigates how to better calibrate magnetic variometers so that their measurements approach the accuracy of full magnetic observatories. By developing quantitative metrics that characterize and constrain variometer error, we aim to improve confidence in low-cost magnetic monitoring systems and support broader deployment across the United States.
+
+The USGS has deployed several fluxgate variometers across the United States for geomagnetic monitoring. These instruments are well-suited for resolving short-period temporal variations but are not designed to recover absolute field values. Without a co-located geomagnetic observatory, there is no straightforward way to correct for these errors.
+
+This project develops quantitative error metrics to characterize and correct variometer measurements, with the goal of making standalone variometer deployments more scientifically reliable. Corrections are referenced against the International Geomagnetic Reference Field (IGRF) and validated against observatory data from the Boulder Geomagnetic Observatory.
+
+---
+
+## Research Question
+
+How can we develop quantitative metrics to improve the absolute accuracy of magnetic variometer measurements at stations without co-located geomagnetic observatories?
+
+---
+
+## Hypothesis
+
+Systematic errors in variometer deployments are quantifiable via observatory comparison and correctable using IGRF-referenced metrics, enabling more reliable absolute field estimation at sites without co-located observatories.
+
+---
+
+## Objectives
+
+1. Quantify the error characteristics of variometer relative to Boulder Geomagnetic Observatory data
+2. Develop correction metrics: baseline offset, secular drift rate, angular misalignment, sensitivity coefficients — benchmarked against the IGRF
+3. Apply the correction scheme to independent standalone USGS variometer deployments
+4. Validate corrected output against IGRF and assess whether results approach INTERMAGNET accuracy thresholds (±5 nT)
+
+---
+
+## Workflow
+
+1. **Deploy** — Install Mag690-100 adjacent to the Boulder Geomagnetic Observatory to collect simultaneous high-accuracy reference data
+2. **Characterize** — Compare variometer output to observatory data to quantify errors across X, Y, Z components
+3. **Correct** — Build a correction scheme using characterized errors referenced against IGRF, designed to be applicable without a co-located observatory
+4. **Apply** — Implement the correction on independent USGS variometer deployments across the US
+5. **Validate** — Compare corrected variometer output to IGRF at independent sites and quantify improvement
+
+---
+
+## Data Sources
+
+- **Boulder Geomagnetic Observatory** — high-accuracy absolute reference (USGS/NOAA)
+- **USGS variometer network** — standalone variometer deployments across the US
+- **IGRF-14** — global geomagnetic reference model used for benchmarking and validation
 
 ---
 
 ## Student Team
-**Julia Berglind** and **Peyton Chandler**  
-Fourth-year Geophysical Engineering students  
-Colorado School of Mines
 
-### Background
-- **Julia Berglind**  
-  Julia has a strong background in computational geoscience, including modeling magma dynamics and volcanic evolution.
+**Julia Berglind** — Julia has a background in computational geoscience, including modeling magma dynamics and volcanic evolution.
 
-- **Peyton Chandler**  
-  Peyton has worked on a variety of geophysical and machine learning projects, including seismic interpretation for structural analysis and developing tsunami classification algorithms.
+**Peyton Chandler** — Peyton has worked on seismic interpretation for structural analysis and developing machine learning-based tsunami classification algorithms.
 
-- Both students have extensive coursework and practical experience in magnetic methods under Dr. Yaoguo Li.
----
-
-## Research Question
-**How can we develop metrics to increase magnetic variometer reliability at stations that are not located near geomagnetic observatories?**
----
-
-## Motivation
-Magnetic observatories provide highly accurate, *absolute* measurements of the Earth’s magnetic field vector and derived total field. However, observatories require expensive instrumentation and infrastructure, resulting in sparse coverage across the United States.
-
-Magnetic variometers offer a low-cost and easy-to-deploy alternative for monitoring geomagnetic variations. However:
-- They measure only **relative temporal changes**, not absolute field values.
-- Their data are susceptible to drift.
-- They require calibration against an absolute reference.
-
-To expand the usefulness of variometer networks, we must quantify how well they track true geomagnetic variations. Developing error metrics will help:
-- Improve calibration procedures  
-- Increase confidence in variometer-derived data  
-- Support wider deployment of inexpensive magnetic monitoring systems  
----
-
-## Objectives
-1. Identify and evaluate quantitative metrics that characterize the error between variometer measurements and observatory data.  
-2. Assess how these metrics vary under different geomagnetic conditions.  
-3. Develop recommendations for improving variometer calibration and long-term stability.  
-4. Provide guidance for future deployment strategies of low-cost magnetic sensors.
----
-
-## Methods (Planned)
-- Data collection from magnetic variometers and observatories  
-- Preprocessing and time-alignment  
-- Statistical comparison (RMSE, cross-correlation, drift quantification, etc.)  
-- Evaluation across geomagnetic disturbance levels  
-- Recommendations for calibration workflows  
----
+Both students have extensive coursework and practical experience in magnetic methods under Dr. Yaoguo Li at Colorado School of Mines.
 
 
