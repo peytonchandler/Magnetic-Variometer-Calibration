@@ -1,5 +1,6 @@
 # Calibrating Magnetic Variometers Using Quantitative Error Metrics
 **Spring 2026 Capstone Design Project — Colorado School of Mines**
+
 Julia Berglind & Peyton Chandler | Department of Geophysics | Advisors: Rich Krahenbuhl (CSM), Brian Shiro (USGS), Adam Ringler (USGS), Josh Rigler (USGS), & John Spritzer (USGS)
 
 ---
