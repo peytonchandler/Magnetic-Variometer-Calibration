@@ -7,6 +7,11 @@ Attendees: Peyton Chandler & Julia Berglind
 - Discuss best practices in data access and coding (anything we should be aware of when accessing the data?)
 
 ## Agenda
+1. Current ideas for metrics:
+  - Baseline offset per component
+  - Secular drift rate (how baseline reading shifts over time)
+  - IGRF residuals (variometer - IGRF model)
+  - Sensitivity coefficients (scale factor by which variometer is off, probably unlikely?)
 
 
 
