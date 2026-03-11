@@ -12,10 +12,10 @@ Attendees: Peyton Chandler & Julia Berglind
   - Secular drift rate (how baseline reading shifts over time)
   - IGRF residuals (variometer - IGRF model)
   - Sensitivity coefficients (scale factor by which variometer is off, probably unlikely?)
+  - Angular Misalignment: Introduction of error from small alignment errors. Could potentially have some leakage of axes into eachother.
 
-
-
-
+2. Data Access for Boulder and Tuscon variometers
+3. Picking other station locations for comparison (how many? should they be geopgraphically close to Boulder, Tuscon, Fairbanks?)
 ## Discussion Notes
 
 
@@ -23,4 +23,4 @@ Attendees: Peyton Chandler & Julia Berglind
 
 ## Action Items — who is doing what, and by when
 
-## Next Meeting — date, and any topics to carry forward
+## Next Meeting
